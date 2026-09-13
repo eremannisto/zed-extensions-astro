@@ -1,4 +1,8 @@
-(tag_name) @tag
+((tag_name) @tag.component
+  (#match? @tag.component "^[A-Z]"))
+
+((tag_name) @tag
+  (#match? @tag "^[a-z]"))
 
 (erroneous_end_tag_name) @keyword
 
