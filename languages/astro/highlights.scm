@@ -7,7 +7,7 @@
 
 (doctype) @tag.doctype
 
-(attribute_name) @property
+(attribute_name) @attribute
 
 (attribute_value) @string
 
